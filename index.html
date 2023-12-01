@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>HIGA (Hitung Segitiga)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="scriptsheet" href="js/script.js">
+
+</head>
+
+<body>
+
+    <article>
+
+      <header>
+        <h1>Welcome to HIGA</h1>
+        <h4>Hi mathematicians! Selamat datang di HIGA</h4>
+        <h5>HIGA adalah sebuah web app sederhana yang berfungsi untuk menghitung nilai keliling dan luas pada bangun datar SEGITIGA</h5>
+
+        <section class="navigation-header-1">
+          <nav class="container-1">
+            <div class="nav-keliling">Keliling Segitiga</div>
+            <div class="nav-luas">Luas Segitiga</div>
+          </nav>
+        </section>
+      </header>
+
+      <hr/>
+
+      <main>
+        <section class="title-header-1">
+          <h1>Keliling Segitiga</h1>
+        </section>
+
+        <div class="gambar-segitiga">
+          <img src="assets/Segitiga.png" class="gambar"/>
+        </div>
+
+        <section class="rumus-keliling">
+          <p class="rumus-keliling-segitiga">
+            Rumus Keliling Segitiga :
+          </p>
+          <h4>
+            K = S1 + S2 + S3
+          </h4>
+          <p>
+            Keterangan:
+            <br/>
+            K = Keliling
+            <br/>
+            S1 = Sisi A
+            <br/>
+            S2 = Sisi B
+            <br/>
+            S3 = Sisi C
+          </p>
+        </section>
+
+        <hr/>
+
+        <section class="hitung-keliling">
+          <h1>Hitung Keliling Segitiga</h1>
+          <form>
+            <label for="S1-input">Sisi A : </label>
+            <input id="S1-input" type="number" placeholder="Sisi A" required/>
+            <br/>
+            <label for="S2-input">Sisi B : </label>
+            <input id="S2-input" type="number" placeholder="Sisi B" required/>
+            <br/>
+            <label for="S3-input">Sisi C : </label>
+            <input id="S3-input" type="number" placeholder="Sisi C" required/>
+            <br/>
+          </form>
+
+          <div class="hitung-button" id="hitung-keliling-button">
+            <button type="button" class="primary-button">Hitung</button>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="reset-button" id="reset-keliling-button">
+          <button type="button" class="secondary-button">Reset</button>
+        </div>
+      </footer>
+
+      <hr/>
+
+      <main>
+        <section class="title-header-2">
+          <h1>Luas Segitiga</h1>
+        </section>
+
+        <div class="gambar-segitiga">
+          <img src="assets/Segitiga.png" class="gambar"/>
+        </div>
+
+        <section class="rumus-luas">
+          <p class="rumus-luas-segitiga">
+            Rumus Luas Segitiga :
+          </p>
+          <h4>
+            L = 1/2 x a x t
+          </h4>
+          <p>
+            Keterangan:
+            <br/>
+            L = Luas
+            <br/>
+            a = Alas
+            <br/>
+            t = Tinggi
+          </p>
+        </section>
+
+        <hr/>
+
+        <section class="hitung-luas">
+          <h1>Hitung Luas Segitiga</h1>
+          <form>
+            <label for="alas-input">Alas : </label>
+            <input id="alas-input" type="number" placeholder="Alas" required/>
+            <br/>
+            <label for="tinggi-input">Tinggi : </label>
+            <input id="tinggi-input" type="number" placeholder="Tinggi" required/>
+            <br/>
+          </form>
+
+          <div class="hitung-button" id="hitung-luas-button">
+            <button type="button" class="primary-button">Hitung</button>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="reset-button" id="reset-luas-button">
+          <button type="button" class="secondary-button">Reset</button>
+        </div>
+      </footer>
+
+    </article>
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+h1, h4, h5 {
+    text-align: center;
+}
+
+.container-1 {
+    border: 5px solid rgb(164, 250, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(141, 47, 141);
+}
+
+.container-1 > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 14sp;
+    color: #ffeead;
+    border: 2px solid;
+    background-color: rgb(141, 47, 141);
+}
+
+.title-header-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(141, 47, 141);
+    color: #ffeead;
+}
+
+img {
+    width: "200";
+    height: "200";
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rumus-keliling-segitiga {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid rgb(164, 250, 34);
+}
+
+input:focus {
+    border: 1px solid rgb(141, 47, 141);
+}
+
+.hitung-button {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.primary-button {
+    background-color: rgb(141, 47, 141);
+    color: #ffeead;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold
+}
+
+.primary-button:hover {
+    background-color: rgb(99, 41, 99);
+}
+
+.primary-button:active {
+    background-color: rgb(66, 31, 66);
+    color: white;
+    transform: translateY(3px);
+}
+
+.secondary-button {
+    background-color: rgb(164, 250, 34);
+    color: rgb(141, 47, 141);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.secondary-button:hover {
+    background-color: rgb(131, 195, 36);
+}
+
+.secondary-button:active {
+    background-color: rgb(93, 132, 36);
+    color: white;
+    transform: translateY(3px);
+}
+
+.title-header-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(141, 47, 141);
+    color: #ffeead;
+}
+
+.rumus-luas-segitiga {
+    text-align: center;
+}
